@@ -1,6 +1,7 @@
 # 自定义Hook大全
 
 ### 倒计时Hook - [useCountDown](https://github.com/RicholeYu/react-hooks/blob/master/src/common/useCountDown.tsx)
+```
 interface UseCountDown {
     /** count 剩余秒数 */
     count: number
@@ -9,3 +10,4 @@ interface UseCountDown {
     /** 倒数是否结束 */
     isEnd: boolean
 }
+```
