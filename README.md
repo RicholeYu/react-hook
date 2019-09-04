@@ -2,7 +2,6 @@
 
 ### 倒计时Hook - [useCountDown](https://github.com/RicholeYu/react-hooks/blob/master/src/common/useCountDown.tsx) (initValue: number = 0): UseCountDownReturn
 ```
-iterface Use
 interface UseCountDownReturn {
     /** count 剩余秒数 */
     count: number
