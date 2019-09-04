@@ -1,0 +1,56 @@
+{
+  "baseUrl": "types",
+  "typeRoots": [
+    "types"
+  ],
+  "compilerOptions": {
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "module": "esnext",
+    "sourceMap": true,
+    "watch": true,
+    "allowJs": true,
+    "outDir": "generated",
+    "types": [
+      "react",
+      "react-dom",
+      "react-router-dom",
+      "react-transition-group"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "target": "es5",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "indent": [
+    true,
+    "spaces",
+    4
+  ],
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./index.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
