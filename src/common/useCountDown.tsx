@@ -7,7 +7,9 @@ interface UseCountDown {
     /** count 剩余秒数 */
     count: number
     /** 开始倒数 countValue 倒数秒数 */
-    startCount (countValue: number): void,
+    startCount (countValue: number): void
+    /** 停止倒数 */
+    stopCount (): void
     /** 倒数是否结束 */
     isEnd: boolean
 }
@@ -47,6 +49,7 @@ export default function useCountDown (initValue: number = 0):UseCountDown {
     return {
         count,
         startCount,
+        stopCount,
         isEnd
     }
 }
